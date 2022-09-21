@@ -1,42 +1,43 @@
 
-## Moonlay Academy - Mobile Technical Test
+## Moonlay Academy - Frontend Technical Test
 
-Selamat datang di **Moonlay Academy - Mobile Technical Test.**
-Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk menyelesaikan Technical Test **Moonlay Internship Program**
+Selamat datang di **Moonlay Academy - Frontend Technical Test.**
+Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk menyelesaikan Technical Test **Frontend Developer Moonlay Technologies**
 ##### Sebelum Memulai
 - siapkan 1 public repo di github
 - gunakan repo tersebut untuk men-submit hasil task yang Anda kerjakan nanti
 
-#### 1. Environment Installation
+#### 1. UI Implementation
 ------------
-Pada tahap ini Anda diharapkan bisa melakukan konfigurasi untuk memulai development React Native
+Pada tahap ini Anda diharapkan mampu menerapkan dasar ui React JS
 ##### Tugas
-- Siapkan 1 buah laptop yang akan Anda gunakan selama masa Internship di Moonlay Technology
-- Ikuti langkah instalasi di [Dokumentasi Resmi React Native](https://reactnative.dev/docs/environment-setup "Dokumentasi Resmi React Native") untuk melakukan setup environment
-- Pastikan laptop Anda bisa merespon code `npx react-native run-android` dan `npx react-native run-ios` jika menggunakan macbook
-- Screenshot bukti Anda telah menyelesaikan proses instalasi environment dengan berhasil
-- Commit screenshot kedalam repo Anda
-
-#### 2. UI Implementation
-------------
-Pada tahap ini Anda diharapkan mampu menerapkan dasar ui react native
-##### Tugas
-- Buat tampilan ui seperti dibawah ini (boleh kiri/kanan)
-![](https://cdn.dribbble.com/users/666751/screenshots/4464496/friend_list_ui.png)
-- Property design (warna, ukuran, bentuk dll) boleh diubah sesuai keinginan
-- Minimal harus terdapat komponen Drawer, Header, FAB (Floating Action Button) dan Main Screen
+- Buat tampilan ui menggunakan Tailwind CSS
+- Komponen design (posisi, warna, ukuran, bentuk dll) tidak diatur
+- Terdapat Modul
+    - Planet (Terdapat Fungsi CRUD)
+    - Starship (Terdapat Fungsi CRUD)
+    - People (Terdapat Fungsi CRUD)
+- Memperhatikan UI/UX yang baik
+- Menggunakan plugin _(minimal 1)_ di bawah ini:
+    - `react-router`
+    - `mobx-state-tre`
+    - `react-hook-form`
+    - `yup`
+    - `sweetalert`
 - Commit project ke dalam repo
 
-#### 3. REST Implementation
+#### 2. REST Implementation
 ------------
 Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
 ##### Tugas
-- Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST dari https://reqres.in/ untuk memunculkan data people
+- Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST dari https://swapi.dev untuk memunculkan data pada tiap modul
+- Menggunakan plugin _(minimal 1)_ di bawah ini:
+    - `axios`
 - Commit project ke dalam repo
 
 ------------
 ##### Langkah akhir
-- kirim link repo Anda kedalam form isian technical test
+- kirim link repo Anda beserta panduan untuk menjalankan project tersebut dalam Readme.md file
 
 ------------
 **SELAMAT MENGERJAKAN**
