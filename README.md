@@ -11,7 +11,7 @@ Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk m
 ------------
 Pada tahap ini Anda diharapkan mampu menerapkan dasar ui React JS
 ##### Tugas
-- Buat tampilan ui menggunakan Tailwind CSS
+- Buat tampilan ui menggunakan Tailwind CSS (from scratch)
 - Komponen design (posisi, warna, ukuran, bentuk dll) tidak diatur
 - Terdapat Modul
     - Planet (Terdapat Fungsi CRUD)
