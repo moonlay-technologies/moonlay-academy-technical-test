@@ -20,7 +20,7 @@ Pada tahap ini Anda diharapkan mampu menerapkan dasar ui React JS
 - Memperhatikan UI/UX yang baik
 - Menggunakan plugin _(minimal 1)_ di bawah ini:
     - `react-router`
-    - `mobx-state-tre`
+    - `mobx-state-tree`
     - `react-hook-form`
     - `yup`
     - `sweetalert`
