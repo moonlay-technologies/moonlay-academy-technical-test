@@ -1,7 +1,7 @@
 
-## Moonlay Academy - Frontend Technical Test
+## Moonlay Academy - Mid Frontend Technical Test
 
-Selamat datang di **Moonlay Academy - Frontend Technical Test.**
+Selamat datang di **Moonlay Academy - Mid Frontend Technical Test.**
 Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk menyelesaikan Technical Test **Frontend Developer Moonlay Technologies**
 ##### Sebelum Memulai
 - siapkan 1 public repo di github
@@ -9,18 +9,19 @@ Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk m
 
 #### 1. UI Implementation
 ------------
-Pada tahap ini Anda diharapkan mampu menerapkan dasar ui React JS
+Pada tahap ini Anda diharapkan mampu menerapkan ui React JS
 ##### Tugas
 - Buat tampilan ui menggunakan Tailwind CSS (from scratch)
 - Komponen design (posisi, warna, ukuran, bentuk dll) tidak diatur
+- Mengimplementasi CSS Animation
 - Terdapat Modul
     - Planet (Terdapat Fungsi CRUD)
     - Starship (Terdapat Fungsi CRUD)
     - People (Terdapat Fungsi CRUD)
 - Memperhatikan UI/UX yang baik
-- Menggunakan plugin _(minimal 1)_ di bawah ini:
+- Menggunakan plugin di bawah ini:
     - `react-router`
-    - `mobx-state-tre`
+    - `mobx-state-tree`
     - `react-hook-form`
     - `yup`
     - `sweetalert`
@@ -30,9 +31,10 @@ Pada tahap ini Anda diharapkan mampu menerapkan dasar ui React JS
 ------------
 Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
 ##### Tugas
-- Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST dari https://swapi.dev untuk memunculkan data pada tiap modul
-- Menggunakan plugin _(minimal 1)_ di bawah ini:
+- Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST dari https://swapi.dev untuk memunculkan data pada tiap modul (Hanya Read)
+- Menggunakan plugin di bawah ini:
     - `axios`
+    - `jest` or `react-testing-library`
 - Commit project ke dalam repo
 
 ------------
