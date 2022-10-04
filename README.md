@@ -32,8 +32,11 @@ Pada tahap ini Anda diharapkan mampu menerapkan ui React JS
 Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
 ##### Tugas
 - Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST dari https://swapi.dev untuk memunculkan data pada tiap modul (Hanya Read)
+- environment variable diatur melalui file .env
+- menyertakan unit test
 - Menggunakan plugin di bawah ini:
     - `axios`
+    - `dotenv`
     - `jest` or `react-testing-library`
 - Commit project ke dalam repo
 
