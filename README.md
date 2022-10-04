@@ -31,8 +31,10 @@ Pada tahap ini Anda diharapkan mampu menerapkan dasar ui React JS
 Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
 ##### Tugas
 - Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST dari https://swapi.dev untuk memunculkan data pada tiap modul (hanya READ)
-- Menggunakan plugin _(minimal 1)_ di bawah ini:
+- environment variable diatur melalui file .env
+- Menggunakan plugin di bawah ini:
     - `axios`
+    - `dotenv`
 - Commit project ke dalam repo
 
 ------------
