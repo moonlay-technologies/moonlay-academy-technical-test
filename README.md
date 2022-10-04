@@ -20,7 +20,9 @@ Pada tahap ini Anda diharapkan mampu menerapkan ui React JS
 - Komponen design (posisi, warna, ukuran, bentuk dll) tidak diatur
 - Mengimplementasi CSS Animation
 - Memperhatikan UI/UX yang baik
+- menyertakan unit test
 - Menggunakan plugin di bawah ini:
+    - `axios`
     - `react-router`
     - `mobx-state-tree`
     - `react-hook-form`
@@ -51,8 +53,10 @@ Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
     - Autentifikasi menggunakan token
     - Ada mekanisme refresh token
     - token expired tidak bisa digunakan
+- environment variable diatur melalui file .env
 - Menggunakan plugin di bawah ini:
     - `axios`
+    - `dotenv`
 - Commit project ke dalam repo
 
 ------------
