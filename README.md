@@ -1,48 +1,50 @@
 
-## Moonlay Academy - Mid Frontend Technical Test
+## Moonlay Academy - Backend Test (GOLANG)
 
-Selamat datang di **Moonlay Academy - Mid Frontend Technical Test.**
-Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk menyelesaikan Technical Test **Frontend Developer Moonlay Technologies**
-##### Sebelum Memulai
-- siapkan 1 public repo di github
-- gunakan repo tersebut untuk men-submit hasil task yang Anda kerjakan nanti
+Anda akan membuat backend handler untuk aplikasi **Todo List**.
+**Todo List App**
+: Sejenis aplikasi yang umumnya digunakan untuk memelihara tugas sehari-hari kita atau membuat daftar semua yang harus kita lakukan, dengan urutan prioritas tugas tertinggi hingga terendah. Sangat membantu dalam merencanakan jadwal harian kita.
+### Spesifikasi Bisnis:
+```
+- Bisa menampilkan list data, menambahkan, mengubah dan menghapus data.
+- Bisa membuat sub list untuk setiap list yang terdaftar. Sub list bisa ditambah, diubah dan dihapus. ( hanya 2 level )
+Data Input untuk masing” list/sub list :
+- Title [required | maximum 100 karakter | hanya menerima huruf alphabet, spasi dan angka]
+- Deskripsi [required | maximum 1000 karakter]
+- File Upload [required | hanya menerima file dengan extension .txt dan .pdf]
+```
+Buat API Todo List dengan kriteria sebagai berikut :
+1. Menampilkan data list tanpa sub list ( dengan dan tanpa pagination ).
+2. Menampilkan data list beserta dengan sub list nya jika ada.
+3. Menampilkan data sub list by list id.
+4. Menambahkan data list dengan kriteria input diatas.
+5. Menambahkan data sub list untuk spesifik list.
+6. Mengubah data list/sub list dengan kritera input diatas.
+7. Menghapus data list/sub list.
 
-#### 1. UI Implementation
-------------
-Pada tahap ini Anda diharapkan mampu menerapkan ui React JS
-##### Tugas
-- Buat tampilan ui menggunakan Tailwind CSS (from scratch)
-- Komponen design (posisi, warna, ukuran, bentuk dll) tidak diatur
-- Mengimplementasi CSS Animation
-- Terdapat Modul
-    - Planet (Terdapat Fungsi CRUD)
-    - Starship (Terdapat Fungsi CRUD)
-    - People (Terdapat Fungsi CRUD)
-- Memperhatikan UI/UX yang baik
-- Menggunakan plugin di bawah ini:
-    - `react-router`
-    - `mobx-state-tree`
-    - `react-hook-form`
-    - `yup`
-    - `sweetalert`
-- Commit project ke dalam repo
+>Jumlah API yang dibutuhkan untuk mengakomodir fitur ini tidak dibatasi, silahkan buat sesuai yang menurut anda paling efisien.
 
-#### 2. REST Implementation
-------------
-Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
-##### Tugas
-- Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST dari https://swapi.dev untuk memunculkan data pada tiap modul (Hanya Read)
-- environment variable diatur melalui file .env
-- menyertakan unit test
-- Menggunakan plugin di bawah ini:
-    - `axios`
-    - `dotenv`
-    - `jest` or `react-testing-library`
-- Commit project ke dalam repo
-
-------------
-##### Langkah akhir
-- kirim link repo Anda beserta panduan untuk menjalankan project tersebut dalam Readme.md file
-
-------------
-**SELAMAT MENGERJAKAN**
+### Teknologi dan library yang wajib digunakan:
+| Teknologi   | Version | Link |
+| ----------- | ---------------- | ------------------- |
+| Golang      | v1.18 or later   | [Go Download](https://go.dev/dl)  |
+| Go Echo Framework     | v4     | [Echo Installation](https://echo.labstack.com/guide/#installation) | 
+| GORM | v2 | [GORM Installation](https://gorm.io/docs/#Install) |
+| PostgreSQL | v13 or later | [PostgreSQL Download](https://www.postgresql.org/download/) |
+<br>
+```
+Catatan :
+Gunakan `SOLID` Principle
+Reference :
+- https://dave.cheney.net/2016/08/20/solid-go-design
+- https://s8sg.medium.com/solid-principle-in-go-e1a624290346
+```
+Anggaplah aplikasi ini berskala besar dan memiliki potensi untuk terjadinya perubahan atau penambahan fitur scara berkala.
+Maka tentunya aplikasi ini akan menjadi lebih complex dan akan dikerjakan lebih dari 1 developer (kolaborasi team).
+**Jadi code quality di aplikasi ini harus reusable, readable dan easy to upgrade.**
+<br>
+Sangat baik jika ada :
+1. Migration Database ( database version control ), fitur yang berfungsi untuk creating schema table ke db, rollback schema, adding column dan change column via CLI. Reference ( https://en.wikipedia.org/wiki/Schema_migration )
+2. Design file handler dan database handler agar saat nantinya ingin mengganti db ke MongoDB misalnya, cukup menambahkan atau mengubah env config dan menambahkan file untuk handling mongodb connection and queries tanpa harus mengubah code di controller/business layer.
+Hal yang serupa untuk file handler, asumsikan file yg diupload sekarang disimpan di local system dan nantinya akan di upgrade untuk disimpan di cloud storage.
+*Good luck and Have Fun.* :rocket:
