@@ -40,6 +40,7 @@ Buat API Todo List dengan kriteria sebagai berikut :
 | GORM | v2 | [GORM Installation](https://gorm.io/docs/#Install) |
 | PostgreSQL | v13 or later | [PostgreSQL Download](https://www.postgresql.org/download/) |
 <br>
+
 ```
 Catatan :
 Gunakan `SOLID` Principle
@@ -48,6 +49,7 @@ Reference :
 - https://s8sg.medium.com/solid-principle-in-go-e1a624290346
 
 ```
+
 Aplikasi ini adalah aplikasi berskala besar yang memiliki potensi perubahan atau penambahan fitur secara berkala sehingga membuat aplikasi ini akan menjadi lebih kompleks dan memerlukan lebih dari 1 developer dalam pengerjaannya (kolaborasi team).
 
 **Code quality di aplikasi ini harus reusable, readable dan easy to upgrade.**
