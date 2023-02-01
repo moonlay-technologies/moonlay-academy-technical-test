@@ -14,23 +14,26 @@ Data Input untuk masing-masing list/sub list :
 - Title [required | maximum 100 karakter | alphanumeric]
 - Deskripsi [required | maximum 1000 karakter]
 - File Upload [optional | hanya menerima file dengan extension .txt dan .pdf]
+  Bisa upload lebih dari 1 file per list/sub list
 ```
 Buat API Todo List dengan kriteria sebagai berikut :
-1. Menampilkan data list tanpa sub list ( include pagination, filter ).
-2. Menampilkan data list beserta dengan sub list nya jika ada.
-3. Menampilkan data sub list by list id.
-4. Menambahkan data list.
-5. Menambahkan data sub list untuk spesifik list.
-6. Mengubah data list/sub list dengan kritera input diatas.
-7. Menghapus data list/sub list.
+1. [METHOD:GET] Menampilkan data all list ( include pagination, filter[Search By: title, description] ) dengan atau tanpa preload sub list (dynamic)
+2. [METHOD:GET] Menampilkan data detail list by list id.
+3. [METHOD:GET] Menampilkan data all sub list by list id ( include pagination, filter[Search By: title, description] )
+4. [METHOD:GET] Menampilkan data detail sub list by sub list id.
+5. [METHOD:POST] Menambahkan data list.
+6. [METHOD:POST] Menambahkan data sub list untuk spesifik list.
+7. [METHOD:POST/PUT] Mengubah data list/sub list dengan kritera input diatas. 
+8. [METHOD:DELETE] Menghapus data list/sub list. 
+9. API untuk create dan update harus dipisah.
 
 ###### Spesifikasi Teknis
-1. Terdapat Unit Test dengan coverage min 80%
+1. Terdapat Unit Test dengan coverage min 65%
 2. Menyertakan API Specification (Postman Collection atau Swagger Yaml)
 3. Migration DB
 4. Menyertakan panduan menjalankan program pada file Readme.md
 
->Jumlah API yang dibutuhkan untuk mengakomodir fitur ini tidak dibatasi, silahkan buat se-efisien mungkin.
+>Jumlah API yang dibutuhkan untuk mengakomodir fitur maksimal 10.
 
 ### Teknologi dan library yang wajib digunakan:
 | Teknologi   | Version | Link |
