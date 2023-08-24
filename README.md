@@ -11,9 +11,9 @@ Aplikasi yang umumnya digunakan untuk memelihara tugas sehari-hari atau membuat 
 - Dapat menambahkan sub list untuk setiap list yang terdaftar. Sub list bisa ditambah, diubah dan dihapus. ( hanya 2 level )
 
 Data Input untuk masing-masing list/sub list :
-- Title [required | maximum 100 karakter | alphanumeric]
-- Deskripsi [required | maximum 1000 karakter]
-- File Upload [optional | hanya menerima file dengan extension .txt dan .pdf]
+- title [required | maximum 100 karakter | alphanumeric (including space)]
+- description [required | maximum 1000 karakter]
+- file [optional | hanya menerima file dengan extension .txt dan .pdf]
   Bisa upload lebih dari 1 file per list/sub list
 ```
 Buat API Todo List dengan kriteria sebagai berikut :
