@@ -1,8 +1,8 @@
 
-## Moonlay Academy - Senior Frontend Technical Test
+## Moonlay Academy - Frontend Technical Test
 
-Selamat datang di **Moonlay Academy - Senior Frontend Technical Test.**
-Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk menyelesaikan Technical Test **Senior Frontend Developer Moonlay Technologies**
+Selamat datang di **Moonlay Academy - Frontend Technical Test.**
+Berikut adalah langkah - langkah tugas yang harus diikuti dan dikerjakan untuk menyelesaikan Technical Test **Frontend Developer Moonlay Technologies**
 ##### Sebelum Memulai
 - siapkan 1 public repo di github
 - gunakan repo tersebut untuk men-submit hasil task yang Anda kerjakan nanti
