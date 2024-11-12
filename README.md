@@ -21,45 +21,11 @@ Pada tahap ini Anda diharapkan mampu menerapkan ui React JS
 - Mengimplementasi CSS Animation
 - Memperhatikan UI/UX yang baik
 - menyertakan unit test
-- Menggunakan plugin di bawah ini:
-    - `axios`
-    - `react-router`
-    - `mobx-state-tree`
-    - `react-hook-form`
-    - `yup`
-    - `sweetalert`
-    - `jest` or `react-testing-library`
+- Mengimplementasi code quality analysis
 - Commit project ke dalam repo
+- Gunakan Client Side DB untuk menyimpan data
 ------------
-#### 2. Backend Implementation
-Pada tahap ini Anda diharapkan mampu membuat Backend REST menggunakan NodeJS
-##### Tugas
-- Buatlah REST terhadap modul modul yang telah dibuat diatas menggunakan NodeJS dan MongoDB
-- Gunakan JWT untuk Authentification
-- Bisnis Logic
-    - User dapat melalukan login dan logout
-    - Buat hak akses berbeda (Input Master Data dan Pencatat Keluar Masuk Barang)
-    - Di Master Barang terdapat picture
-    - Barang yang sudah ada tidak bisa didaftarkan kembali
-    - Barang yang belum pernah keluar gudang, tidak boleh dimasukan ke gudang lain
-- Terdapat Unit Test
-- Commit project ke dalam repo
-------------
-#### 3. REST Integration
-Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
-##### Tugas
-- Pada UI yang telah Anda buat sebelumnya, lakukan implementasi konsumsi data REST ke Backend yang sudah dibuat
-- Bisnis Logic
-    - Autentifikasi menggunakan token
-    - Ada mekanisme refresh token
-    - token expired tidak bisa digunakan
-- environment variable diatur melalui file .env
-- Menggunakan plugin di bawah ini:
-    - `axios`
-    - `dotenv`
-- Commit project ke dalam repo
 
-------------
 ##### Langkah akhir
 - kirim link repo Anda beserta panduan untuk menjalankan project tersebut dalam Readme.md file
 - Aplikasi bisa dijalankan diatas docker
