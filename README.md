@@ -62,6 +62,7 @@ Pada tahap ini Anda diharapkan mampu melakukan konsumsi data REST
 ------------
 ##### Langkah akhir
 - kirim link repo Anda beserta panduan untuk menjalankan project tersebut dalam Readme.md file
+- Aplikasi bisa dijalankan diatas docker
 
 ------------
 #### Bonus
