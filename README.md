@@ -3,7 +3,7 @@
 
 Selamat datang dalam tes seleksi **Fullstack Developer**. Tes ini bertujuan untuk menilai kemampuan teknis Anda dalam pengembangan frontend dan backend, serta keterampilan interpersonal seperti komunikasi, kolaborasi, dan manajemen waktu.
 
-> Kami meminta Anda untuk menjawab setiap pertanyaan secara mandiri dan tidak menggunakan bantuan AI. Jawaban yang disertai dengan contoh nyata dari pengalaman kerja Anda akan membantu kami memahami pendekatan dan pemahaman Anda dalam menghadapi berbagai tantangan. Jangan ragu untuk mengatakan "tidak ada pengalaman" jika memang pertanyaan tersebut tidak relevan dengan pengalaman Anda
+> Kami meminta Anda untuk menjawab setiap pertanyaan secara mandiri dan tidak menggunakan bantuan AI. Jawaban yang disertai dengan contoh nyata dari pengalaman kerja Anda akan membantu kami memahami pendekatan dan pemahaman Anda dalam menghadapi berbagai tantangan. Jangan ragu untuk mengatakan `tidak ada pengalaman` jika memang pertanyaan tersebut tidak relevan dengan pengalaman Anda
 
 Selamat mengerjakan, dan semoga sukses!
 
