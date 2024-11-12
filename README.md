@@ -31,7 +31,8 @@ Buat API Todo List dengan kriteria sebagai berikut :
 1. Terdapat Unit Test dengan coverage min 65%
 2. Menyertakan API Specification (Postman Collection atau Swagger Yaml)
 3. Migration DB
-4. Menyertakan panduan menjalankan program pada file Readme.md
+4. Aplikasi dijalankan diatas Docker
+5. Menyertakan panduan menjalankan program pada file Readme.md
 
 >Jumlah API yang dibutuhkan untuk mengakomodir fitur maksimal 10.
 
